@@ -1,0 +1,54 @@
+﻿{{#partial "contenido"}}
+
+<div class="container-fluid text-center pt-5 my-4 w-auto wider reverse">
+ <a class="btn btn-primary" href="/metodologias" role="button">Consultar Metodologia</a><br/>
+<!--Card-->
+<div class="card card-cascade wider reverse my-4">
+    <!--Card content-->
+    <div class="card-body text-center">
+      <p class="text-uppercase font-weight-bold">Consultar Metodologias</p>
+  <form id="form">    
+<br/><br/>
+  <label>Metodologia:</label>              
+<select class="mdb-select" id="metodologia" form="form" required/>
+    <option value="">(Seleccionar)</option>
+    {{#each metodologias}}
+    		<option value="{{nombre}}">{{nombre}}</option>
+    	{{/each}}    
+</select>
+
+<br/>
+  <label>Año:</label>              
+      <input type="number" id="anio" class="text-center" style="width: 7em" min="1" max="9999" required/>   
+<br/>
+  <label>Empresa: </label>   
+
+<select class="mdb-select" id="empresa" form="form" required/>
+	<option value="">(Seleccionar)</option>
+	{{#each empresas}}
+		<option value="{{nombre}}">{{nombre}}</option>
+	{{/each}}    
+</select>
+<br/>
+<button class="btn btn-primary" onclick="Evaluar()">Consultar</button>
+ 
+
+</form>
+<script>
+function Evaluar() {
+    var indicador = document.getElementById("metodologia");
+    var anio = document.getElementById("anio");
+    var empresa = document.getElementById("empresa");
+    this.form.action="/metodologias/" + metodologia.value + "/" + anio.value + "/" + empresa.value ;
+}
+</script>
+<br/>
+    </div>
+    <!--/.Card content-->
+
+</div>
+<!--/.Card-->
+   </div>
+{{/partial}}
+
+{{>layout.hbs}}

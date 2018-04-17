@@ -1,0 +1,9 @@
+[ {
+  "nombre" : "Facebook",
+  "periodos" : [ {
+    "periodo" : 2015,
+    "cuentas" : [ {
+      "semestre" : "1",
+      "nombre" : "EBITDA",
+      "valor" : 14.83
+  ]

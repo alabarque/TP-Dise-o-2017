@@ -1,0 +1,45 @@
+﻿{{#partial "contenido"}}
+
+<div class="container-fluid text-center pt-5 my-4 w-auto wider reverse">
+<!--Card-->
+<div class="card card-cascade wider reverse my-4">
+    <!--Card content-->
+    <div class="card-body text-center">
+      <p class="text-uppercase font-weight-bold">Consultar Indicadores</p>
+  <form id="form">    
+  <label>Empresa: </label>   
+  <input id="empresa" class="text-center" value="{{empresa}}" form="form" readOnly="true" /> 
+<br/>             
+	<label>Año: </label>               
+	<input id="anio" class="text-center" value="{{anio}}" form="form" readOnly="true" />    
+<br/><br/>
+  <label>Indicador:</label>              
+<select class="mdb-select" id="indicador" form="form" required/>
+    <option value="">(Seleccionar)</option>
+    {{#each indicadores}}
+    		<option value="{{nombre}}">{{nombre}}</option>
+    	{{/each}}    
+</select>
+<br/>
+<button class="btn btn-primary" onclick="Evaluar()">Evaluar</button>
+ 
+
+</form>
+<script>
+function Evaluar() {
+    var empresa = document.getElementById("empresa");
+    var anio = document.getElementById("anio");
+    var indicador = document.getElementById("indicador");
+    this.form.action="/indicadores/" + empresa.value + "/" + anio.value + "/" + indicador.value + "/";
+}
+</script>
+<br/>
+    </div>
+    <!--/.Card content-->
+
+</div>
+<!--/.Card-->
+   </div>
+{{/partial}}
+
+{{>layout.hbs}}

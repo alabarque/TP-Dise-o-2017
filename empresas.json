@@ -1,0 +1,60 @@
+[ {
+  "nombre" : "Facebook",
+  "periodos" : [ {
+    "periodo" : 2015,
+    "cuentas" : [ {
+"nombre" : "IngresoNetoEnOperacionesDiscontinuas",
+"valor" : 197.02    },{
+      "nombre" : "TDA",
+      "valor" : 76.52   },{
+      "nombre" : "EBITDA",
+      "valor" : 14.83
+    }, {
+"nombre" : "FDS",
+"valor" : 11.65
+    }, {
+"nombre" : "FreeCashFlow",
+"valor" : 79.10
+    }, {
+"nombre" : "IngresoNetoEnOperacionesContinuas",
+"valor" : 71.05
+    } ]
+  }, {
+    "periodo" : 2017,
+    "cuentas" : [ {
+      "nombre" : "EBITDA",
+      "valor" : 14.84
+    },{
+"nombre" : "IngresoNetoEnOperacionesDiscontinuas",
+"valor" : 176.22    },{
+"nombre" : "FDS",
+"valor" : 78.11
+    },{
+      "nombre" : "FreeCashFlow",
+      "valor" : 201.75
+    },{
+"nombre" : "IngresoNetoEnOperacionesContinuas",
+"valor" : 107.33
+    }, {
+      "nombre" : "TDA",
+      "valor" : 14.84
+    } ]
+  } ]
+}, {
+  "nombre" : "COTO",
+  "periodos" : [ {
+    "periodo" : 2017,
+    "cuentas" : [ {
+      "nombre" : "EBITDA",
+      "valor" : 10.0
+    },{
+      "nombre" : "IngresoNetoEnOperacionesDiscontinuas",
+      "valor" : 14.84
+    },{
+"nombre" : "FreeCashFlow",
+"valor" : 289.55
+    },{
+"nombre" : "FDS",
+"valor" : 209.11    } ]
+  } ]
+} ]

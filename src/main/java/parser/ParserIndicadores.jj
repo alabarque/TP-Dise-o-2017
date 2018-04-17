@@ -1,0 +1,160 @@
+/**
+ * JavaCC template file created by SF JavaCC plugin 1.5.28+ wizard for JavaCC 1.5.0+
+ */
+options {
+  IGNORE_CASE = true;
+  STATIC = false ;
+}
+PARSER_BEGIN(ParserIndicadores)
+  package parser;
+  import java.io.FileWriter;
+  import java.io.IOException;
+  import java.io.BufferedWriter;
+  import java.io.FileNotFoundException;
+  import excepciones.IndicadorException;
+  import repositorios.RepositorioIndicadores;
+  import entidades.Periodo;
+  public class ParserIndicadores {
+     private Periodo periodo;
+
+    public void setPeriodos(Periodo periodo) {
+	this.periodo = periodo;
+	}
+
+	public Periodo getPeriodos() {
+		return periodo;
+	}
+    
+    //Ejecución del analizador
+    public static void Analizar ( String args) throws IndicadorException {
+
+      //Inicialización del analizador
+      ParserIndicadores parser;
+      BufferedWriter writer = null;
+
+      if(args.length() == 0){
+        System.out.println ("ParserIndicadores: Leyendo de la entrada estandar ...");
+        parser = new ParserIndicadores(System.in);
+      }
+      else if(args.length() > 0){
+        System.out.println ("ParserIndicadores: Analizando");
+        try {
+			writer = new BufferedWriter( new FileWriter("indicadorPrueba.txt",false));
+			writer.write(args);
+			writer.close();
+		} catch (IOException e) {
+			 throw new IndicadorException("IOException");
+		} 
+      }
+      try {
+        parser = new ParserIndicadores(new java.io.FileInputStream("indicadorPrueba.txt"));
+        parser.analizarSintacticamente();
+      }
+      catch(ParseException e){
+        throw new IndicadorException("ERROR SINTACTICO");
+      }
+      catch(TokenMgrError e){
+        throw new IndicadorException("Hay Palabras Invalidas");
+      } catch (FileNotFoundException e) {
+		throw new IndicadorException("FileNotFoundException");
+	}
+}
+
+public static double Evaluar(String args,Periodo periodo) throws IndicadorException {
+      ParserIndicadores parser;
+      BufferedWriter writer = null;
+      double resultado = 0;
+
+                try {
+          writer = new BufferedWriter( new FileWriter("indicadorEvaluar.txt",false));
+          writer.write(args);
+          writer.close();
+          parser = new ParserIndicadores(new java.io.FileInputStream("indicadorEvaluar.txt"));
+          parser.setPeriodos(periodo);
+          resultado = parser.evaluacion();
+        } catch (IOException e) {
+                 throw new IndicadorException("IOException");
+        }
+        catch (ParseException e) {
+                                 throw new IndicadorException("Error al Evaluar Indicador");
+                        }
+		catch(TokenMgrError e){
+        throw new IndicadorException("Sintaxis de Indicador Invalida");
+      }                         
+
+      return resultado;
+} 
+}
+PARSER_END(ParserIndicadores)SKIP :{  " "| "\r"| "\t"| "\n"}TOKEN : /* OPERATORS */{  < PLUS : "+" >| < MINUS : "-" >| < MULTIPLY : "*" >| < DIVIDE : "/" >}TOKEN :{  < NUMERO : (< DIGIT >)+("."(< DIGIT >)+ )*>| < #DIGIT : [ "0"-"9" ] >
+| <CUENTA: ("c"<NOMBRE>)>  //cNombreDeCuenta
+| <INDICADOR: ("i"<NOMBRE>)>   //inombredeIndicador
+| < #NOMBRE: ["A"-"Z"](["A"-"Z"] | ["0"-"9"])*>}
+
+void analizarSintacticamente() : {}
+{
+	(<INDICADOR> | <CUENTA> | <NUMERO>)
+	(
+		( <PLUS> | <MINUS> |  <DIVIDE> | < MULTIPLY> )
+
+		(<INDICADOR> | <CUENTA> | <NUMERO>)
+	)*
+	< EOF >
+}double evaluacion() throws IndicadorException:
+{
+    double a;
+}
+{
+    a=expr() {return a; }
+
+}
+double expr() throws IndicadorException:
+{
+    double a;
+    double b;
+}
+{
+    a=term()
+    (
+        "+" b=expr()    {a += b;}
+        |
+        "-" b=expr()    {a -= b;}
+    )*
+        { return a;}
+}
+
+double term() throws IndicadorException:
+{
+    double a;
+    double b;
+}
+{
+    a=unary()
+    (
+        "*" b=term()    {a *= b;}
+        |
+        "/" b=term()    {a /= b;}
+    )*
+        {return a;}
+}
+
+double unary() throws IndicadorException:
+{
+    double a;
+}
+{
+    "-" a=element()     {return -a;}
+    |
+    a=element()         {return a;}
+}
+
+double element() throws IndicadorException:
+{
+    Token t;
+    double a;
+}
+{
+    t=<NUMERO>          {return Double.parseDouble(t.toString()); }
+    |t=<CUENTA>          {return this.getPeriodos().obtenerValorCuenta(t.toString().substring(1)); }
+    |t=<INDICADOR>          {return RepositorioIndicadores.EvaluarIndicador(t.toString().substring(1),this.getPeriodos()); }
+    |"(" a=expr() ")"    {return a; }
+}

@@ -1,0 +1,34 @@
+[ {
+  "nombre" : "IngresoNeto",
+  "formula" : "cIngresoNetoEnOperacionesDiscontinuas + cIngresoNetoEnOperacionesContinuas"
+},{
+  "nombre" : "INDCADOR1",
+  "formula" : "200"
+}, {
+  "nombre" : "INDCADOR2",
+  "formula" : "iINDCADOR1 + 200"
+}, {
+  "nombre" : "INDCADOR3",
+  "formula" : "cTDA+100"
+}, {
+  "nombre" : "INDICADORTEST",
+  "formula" : "10000 + cEBITDA"
+}, {
+  "nombre" : "Indicadorconotroindicador",
+  "formula" : "iINDICADORTEST + cEBITDA"
+}, {
+  "nombre" : "dfsdf",
+  "formula" : "cSDFDF"
+}, {
+  "nombre" : "fgfgfg",
+  "formula" : "cSDFdd"
+}, {
+  "nombre" : "asdasdasasaoasp",
+  "formula" : "400*15-10"
+}, {
+  "nombre" : "THENUMBEROFTHEBEAST",
+  "formula" : "666"
+}, {
+  "nombre" : "SARASA",
+  "formula" : "cEBITDA+iTHENUMBEROFTHEBEAST"
+} ]

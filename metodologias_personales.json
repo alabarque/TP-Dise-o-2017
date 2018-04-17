@@ -1,0 +1,107 @@
+[ {
+  "nombre" : "pruebaMetodologia",
+  "condiciones" : [ ]
+}, {
+  "nombre" : "pruebaMetodologia",
+  "condiciones" : [ {
+    "nombreCondicion" : "Condicion antiguedad empresa"
+  }, {
+    "empresaAComparar" : {
+      "nombre" : "Facebook",
+      "periodos" : [ {
+        "periodo" : 2015,
+        "cuentas" : [ {
+          "nombre" : "IngresoNetoEnOperacionesDiscontinuas",
+          "valor" : 197.02,
+          "changeSupport" : {
+            "propertyChangeListeners" : [ ]
+          }
+        }, {
+          "nombre" : "TDA",
+          "valor" : 76.52,
+          "changeSupport" : {
+            "propertyChangeListeners" : [ ]
+          }
+        }, {
+          "nombre" : "EBITDA",
+          "valor" : 14.83,
+          "changeSupport" : {
+            "propertyChangeListeners" : [ ]
+          }
+        }, {
+          "nombre" : "FDS",
+          "valor" : 11.65,
+          "changeSupport" : {
+            "propertyChangeListeners" : [ ]
+          }
+        }, {
+          "nombre" : "FreeCashFlow",
+          "valor" : 79.1,
+          "changeSupport" : {
+            "propertyChangeListeners" : [ ]
+          }
+        }, {
+          "nombre" : "IngresoNetoEnOperacionesContinuas",
+          "valor" : 71.05,
+          "changeSupport" : {
+            "propertyChangeListeners" : [ ]
+          }
+        } ],
+        "changeSupport" : {
+          "propertyChangeListeners" : [ ]
+        }
+      }, {
+        "periodo" : 2017,
+        "cuentas" : [ {
+          "nombre" : "EBITDA",
+          "valor" : 14.84,
+          "changeSupport" : {
+            "propertyChangeListeners" : [ ]
+          }
+        }, {
+          "nombre" : "IngresoNetoEnOperacionesDiscontinuas",
+          "valor" : 176.22,
+          "changeSupport" : {
+            "propertyChangeListeners" : [ ]
+          }
+        }, {
+          "nombre" : "FDS",
+          "valor" : 78.11,
+          "changeSupport" : {
+            "propertyChangeListeners" : [ ]
+          }
+        }, {
+          "nombre" : "FreeCashFlow",
+          "valor" : 201.75,
+          "changeSupport" : {
+            "propertyChangeListeners" : [ ]
+          }
+        }, {
+          "nombre" : "IngresoNetoEnOperacionesContinuas",
+          "valor" : 107.33,
+          "changeSupport" : {
+            "propertyChangeListeners" : [ ]
+          }
+        }, {
+          "nombre" : "TDA",
+          "valor" : 14.84,
+          "changeSupport" : {
+            "propertyChangeListeners" : [ ]
+          }
+        } ],
+        "changeSupport" : {
+          "propertyChangeListeners" : [ ]
+        }
+      } ],
+      "changeSupport" : {
+        "propertyChangeListeners" : [ ]
+      }
+    },
+    "nombreCondicion" : "Empresa mas antigua"
+  }, {
+    "intervaloAnios" : 3,
+    "indicador" : "prueba",
+    "orden" : "CRECIENTE",
+    "nombreCondicion" : "Crecimiento Indicador"
+  } ]
+} ]

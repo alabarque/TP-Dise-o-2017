@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="archivos.IndicadorAdapter" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/archivos/IndicadorAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="241" y="71"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="2" language="java" name="archivos" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/archivos" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="444" y="47"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="3" language="java" name="archivos.IndicadoresAdapter" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/archivos/IndicadoresAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="241" y="201"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="archivos.EmpresaAdapter" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/archivos/EmpresaAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="649" y="71"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="archivos.FileAdapter" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/archivos/FileAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="649" y="201"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="archivos.GrabarIndicador" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/archivos/GrabarIndicador.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="891" y="71"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="condicionesMetodologias.CondicionIndicadorEmpresas" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/condicionesMetodologias/CondicionIndicadorEmpresas.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="328" x="60" y="289"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="condicionesMetodologias.Sumatoria" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/condicionesMetodologias/Sumatoria.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="197" x="1144" y="289"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="condicionesMetodologias.CondicionIndicadorOrden" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/condicionesMetodologias/CondicionIndicadorOrden.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="285" x="428" y="289"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="condicionesMetodologias.CondicionIndicadorValor" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/condicionesMetodologias/CondicionIndicadorValor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="351" x="753" y="289"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="condicionesMetodologias.Mediana" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/condicionesMetodologias/Mediana.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="377" x="1381" y="289"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="condicionesMetodologias.ObtenerValorIndicador" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/condicionesMetodologias/ObtenerValorIndicador.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="282" x="2035" y="289"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="condicionesMetodologias.Operacion" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/condicionesMetodologias/Operacion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="197" x="1381" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="condicionesMetodologias.FiltrarYOrdernarLista" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/condicionesMetodologias/FiltrarYOrdernarLista.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="284" x="2357" y="289"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="condicionesMetodologias.Promedio" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/condicionesMetodologias/Promedio.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="197" x="1798" y="289"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="16" language="java" name="condicionesMetodologias" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/condicionesMetodologias" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="169" x="2681" y="289"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="17" language="java" name="entidades.Empresa" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/entidades/Empresa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="438" y="983"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="entidades.Metodologia" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/entidades/Metodologia.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="93" y="655"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="entidades.Cuenta" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/entidades/Cuenta.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="430" y="1603"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="20" language="java" name="entidades" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/entidades" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="258" y="604"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="21" language="java" name="entidades.MetodologiaComparar" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/entidades/MetodologiaComparar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="424" y="646"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="entidades.Indicador" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/entidades/Indicador.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="609" y="700"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="entidades.Operador" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/entidades/Operador.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="975" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="entidades.Periodo" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/entidades/Periodo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="445" y="1284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="excepciones.ArchivoException" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/excepciones/ArchivoException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="147" x="1252" y="44"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="excepciones.IndicadorException" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/excepciones/IndicadorException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="153" x="1439" y="44"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="27" language="java" name="excepciones" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/excepciones" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="1632" y="44"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="28" language="java" name="metodologiasBuffet.MetodologiaBuffet" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/metodologiasBuffet/MetodologiaBuffet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1450" y="805"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="29" language="java" name="metodologiasBuffet" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/metodologiasBuffet" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2016" y="701"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="30" language="java" name="metodologiasBuffet.CondicionAntiguedad" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/metodologiasBuffet/CondicionAntiguedad.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="291" x="1552" y="967"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="metodologiasBuffet.CondicionTrayectoria" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/metodologiasBuffet/CondicionTrayectoria.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="233" x="1552" y="756"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="metodologiasBuffet.CondicionMargenCreciente" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/metodologiasBuffet/CondicionMargenCreciente.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="258" x="1825" y="756"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="metodologiasBuffet.CondicionROE" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/metodologiasBuffet/CondicionROE.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="216" x="2123" y="756"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="metodologiasBuffet.CondicionDeuda" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/metodologiasBuffet/CondicionDeuda.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="251" x="2379" y="756"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="parser.ParserIndicadores" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/parser/ParserIndicadores.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1149" y="1314"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="36" language="java" name="parser" project="grupo7-TP-anual" file="/grupo7-TP-anual/src/main/java/parser" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1904" y="990"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="37" language="java" name="repositorios.RepositorioMetodologias" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/repositorios/RepositorioMetodologias.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1703" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="38" language="java" name="repositorios" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/repositorios" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1943" y="1148"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="39" language="java" name="repositorios.RepositorioIndicadores" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/repositorios/RepositorioIndicadores.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="224" x="1820" y="1190"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="repositorios.RepositorioEmpresas" project="grupo7-TP-anual" 
+    file="/grupo7-TP-anual/src/main/java/repositorios/RepositorioEmpresas.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="207" x="2084" y="1190"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="41">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="42">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="43" name="periodo"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="45">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="46">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="47" name="empresas"/>      
+      <multiplicity id="48" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="49">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="50" name="cuentas"/>      
+      <multiplicity id="51" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="52">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="53" name="periodos"/>      
+      <multiplicity id="54" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="55">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="56">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="57">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="58" name="OtraEmpresa"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="60">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="61">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="62" name="indicadores"/>      
+      <multiplicity id="63" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="64">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="65" name="condicionAntiguedad"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="67">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="68">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="69" name="UnaEmpresa"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

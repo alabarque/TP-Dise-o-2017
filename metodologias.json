@@ -1,0 +1,15 @@
+[ {
+  "nombre" : "fff",
+  "condiciones" : [ ]
+}, {
+  "nombre" : "MetodologiaBuffet",
+  "condiciones" : [ {
+    "@condicion" : "CondicionROE"
+  }, {
+    "@condicion" : "CondicionDeuda"
+  }, {
+    "@condicion" : "CondicionMargenCreciente"
+  }, {
+    "@condicion" : "CondicionTrayectoria"
+  } ]
+} ]

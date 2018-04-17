@@ -1,0 +1,44 @@
+{{#partial "contenido"}}
+
+<div class="container-fluid text-center pt-5 w-auto wider reverse">
+<!--Card-->
+	{{#block "error"}}
+	{{/block}}
+<div class="card card-cascade wider reverse my-4">
+    <!--Card content-->
+    <div class="card-body text-center">
+      <p class="text-uppercase font-weight-bold">Consultar Cuentas</p>
+<form id="form">
+  <label>Empresa: </label>               
+  <input id="empresa" class="text-center" value="{{empresa}}" form="form" readOnly="true" /> 
+<br/>
+	<label>Año: </label>              
+<select class="mdb-select" id="anio" form="form" required/>
+<option value="">(Seleccionar)</option>
+{{#each periodos}}
+    <option value="{{periodo}}">{{periodo}}</option>
+{{/each}}    
+</select>      
+
+<br/>
+<button class="btn btn-primary" onclick="Consultar()">Consultar</button>
+</form>
+<script>
+function Consultar() {
+    var empresa = document.getElementById("empresa");
+    var anio = document.getElementById("anio");
+    this.form.action="/cuentas/" + empresa.value + "/" + anio.value + "/";
+}
+</script>
+<br/>
+    </div>
+    <!--/.Card content-->
+
+</div>
+<!--/.Card-->
+ </div>
+{{/partial}}
+
+{{>layout.hbs}}
+
+

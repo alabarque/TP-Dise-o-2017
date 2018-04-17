@@ -1,0 +1,53 @@
+﻿{{#partial "contenido"}}
+
+
+
+
+<div class="container-fluid text-center pt-5 my-4 w-auto wider reverse">
+<!--Card-->
+<div class="card card-cascade wider reverse my-4">
+    <!--Card content-->
+    <div class="card-body text-center">
+      <p class="text-uppercase font-weight-bold">Crear Indicadores</p>
+  <form action="/indicadores/nuevo" method="post" id="form">    
+
+<br/>
+  <label>Nombre:</label>              
+      <input name="nombre" class="text-center" required/>  
+<br/>
+  <label>Formula:</label>              
+	<input name="formula" class="text-center" required/>  
+<br/>  
+<input type="hidden" name="usuario" class="text-center" value="{{usuario}}" readOnly="true" /> 
+<br/>
+<button  class="btn btn-primary">Crear</button>
+</form>
+<br/>
+    </div>
+    <!--/.Card content-->
+
+</div>
+<!--/.Card-->
+ 
+ </div>
+ 
+{{/partial}}
+
+{{>layout.hbs}}
+
+<script type="text/javascript">
+$(function() {
+
+	var mensaje= "{{mensaje}}";
+	
+	if ( mensaje != "" ){
+	
+		alert(mensaje);
+		
+	}
+
+	
+});
+
+
+</script> 

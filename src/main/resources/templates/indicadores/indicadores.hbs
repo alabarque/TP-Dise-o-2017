@@ -1,0 +1,39 @@
+﻿{{#partial "contenido"}}
+
+<div class="container-fluid text-center pt-5 w-auto wider reverse">
+<!--Card-->
+	{{#block "error"}}
+	{{/block}}
+<div class="card card-cascade wider reverse my-4">
+    <!--Card content-->
+    <div class="card-body text-center">
+      <p class="text-uppercase font-weight-bold">Consultar Indicadores</p>
+<form id="form">
+  <label>Empresa: </label>               
+<select class="mdb-select" id="empresa" form="form" required/>
+<option value="">(Seleccionar)</option>
+{{#each empresas}}
+    <option value="{{nombre}}">{{nombre}}</option>
+{{/each}}    
+</select>
+<br/>
+<button class="btn btn-primary" onclick="Consultar()">Elegir Empresa</button>
+</form>
+<script>
+function Consultar() {
+    var empresa = document.getElementById("empresa");
+   this.form.action="/indicadores/" + empresa.value + "/";
+}
+</script>
+<br/>
+    </div>
+    <!--/.Card content-->
+
+</div>
+<!--/.Card-->
+ </div>
+{{/partial}}
+
+{{>layout.hbs}}
+
+
